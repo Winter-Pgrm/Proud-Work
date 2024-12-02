@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\Engine.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateManager.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\stdafx.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Trace.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateTable.c">
+      <Filter>Game\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateStub.c">
+      <Filter>Game\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.c" />
+    <ClCompile Include="Source\Stub.c" />
+    <ClCompile Include="Source\physics.c">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DigipenLogo.c">
+      <Filter>Game\Extra Gamestates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collision.c">
+      <Filter>LevelManger</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LevelManager.c">
+      <Filter>LevelManger</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FMOD.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateLevel.c">
+      <Filter>Game\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.c" />
+    <ClCompile Include="Source\Gfx.c" />
+    <ClCompile Include="Source\Checkpoint.c">
+      <Filter>LevelManger</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Characters.c">
+      <Filter>Animation\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player.c">
+      <Filter>Animation\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Commandlist.c">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Hook.c">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy.c">
+      <Filter>Animation\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Particle.c">
+      <Filter>Animation\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Vector2D.c">
+      <Filter>Physics\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\random.c">
+      <Filter>Physics\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CheckpointFlag.c">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OptionsMenu.c">
+      <Filter>Game\Extra Gamestates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Timer.c">
+      <Filter>LevelManger</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Death.c">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Cenematic.c">
+      <Filter>Game\Extra Gamestates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SnowEffect.c" />
+    <ClCompile Include="Source\MainMenu.c">
+      <Filter>Game\Extra Gamestates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerMovement.c">
+      <Filter>Animation\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Coin.c">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Credits.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\stdafx.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\targetver.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Trace.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateTable.h">
+      <Filter>Game\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateStub.h">
+      <Filter>Game\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stub.h" />
+    <ClInclude Include="Source\physics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DigipenLogo.h">
+      <Filter>Game\Extra Gamestates</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision.h">
+      <Filter>LevelManger</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LevelManager.h">
+      <Filter>LevelManger</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainMenu.h">
+      <Filter>Game\Extra Gamestates</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateLevel.h">
+      <Filter>Game\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h" />
+    <ClInclude Include="Source\Gfx.h" />
+    <ClInclude Include="Source\Checkpoint.h">
+      <Filter>LevelManger</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Characters.h">
+      <Filter>Animation\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player.h">
+      <Filter>Animation\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Soundfunctions.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Commandlist.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Hook.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy.h">
+      <Filter>Animation\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Particle.h">
+      <Filter>Animation\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vector2D.h">
+      <Filter>Physics\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\random.h">
+      <Filter>Physics\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CheckpointFlag.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Death.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OptionsMenu.h">
+      <Filter>Game\Extra Gamestates</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Timer.h">
+      <Filter>LevelManger</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Cenematic.h">
+      <Filter>Game\Extra Gamestates</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerMovement.h">
+      <Filter>Animation\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Coin.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Credits.h" />
+    <ClInclude Include="Source\SnowEffect.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{0d67ab34-3c47-43db-9c0b-f0db13416a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameStates">
+      <UniqueIdentifier>{f340977e-a837-4485-ad08-bb0012202e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{0c6f3f38-de57-4974-ac4f-ea458c2bb1a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{9b0fee0e-9170-4dd4-a783-a407de93a110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands">
+      <UniqueIdentifier>{298a20c7-3825-42f6-a03c-5d6c1842272c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Extra Gamestates">
+      <UniqueIdentifier>{1566661c-c502-42e8-b648-dfaded694b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{8976f2f1-eb70-45b1-a9fc-ff5cbfe279c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LevelManger">
+      <UniqueIdentifier>{e7580eac-eb24-47d4-947c-8db8c9c1f202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\Character">
+      <UniqueIdentifier>{c2e81459-03f7-491f-b1a2-9248175f5bf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\Particles">
+      <UniqueIdentifier>{c922f0b4-1b53-4c32-9157-f9c17eb5d8f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Math">
+      <UniqueIdentifier>{2c7e8874-9e82-4fe1-977c-b9a9cd62a73b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

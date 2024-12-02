@@ -1,0 +1,15 @@
+//------------------------------------------------------------------------------
+//
+// File Name:	Coin.c
+// Author(s):	Brian Lu
+// Project:		Inversion
+// Course:		GAM150S17
+//
+// Copyright © 2017 DigiPen (USA) Corporation.
+//
+//------------------------------------------------------------------------------
+void CoinInit();
+
+void CoinUpdate(float dt);
+
+void CoinShutDown();

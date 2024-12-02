@@ -1,0 +1,1 @@
+void hook(s32 sx, s32 sy, float *playerX, float *playerY);

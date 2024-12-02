@@ -1,0 +1,24 @@
+Alexander Phillips
+Role: Technical Director
+Systems: Checkpoints, Main menu buttons, Fmod, Cinematic
+Files: OptionsMenu.c, FMOD.c, MainMenu.c, Cenematic.c, Checkpoint.c, Backgrounddrop.c, Commandlist.c, random.c
+
+Brian Lu
+Role: Test Manager
+Systems: Player movement, camera, Death, animations, flags, level design
+Files: GameStateLevel.c, Timer.c, Player.c, Camera.c, CheckpointFlag.c, Death.c, Coin.c, PlayerMovement.c
+
+Deni Van Winkle
+Role: Producer
+Systems: Enemies, Particles, Splash Screen, Credits
+Files: MainMenu.c, Enemy.c, Player.c, Particle.c, SnowEffect.c, Characters.c, Credits.c, DigipenLogo.c
+
+Ian Gather
+Role: Product Manager
+Systems: Collision, Level changing, Physics, Grappling hook, Inversion
+Files: LevelManager.c, physics.c, Collision.c, Gfx.c, Hook.c, 
+
+Fengchao Xie
+Role: Design Director
+Systems: 
+Files: camera.c
